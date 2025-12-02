@@ -1,0 +1,7 @@
+:HL["/_next/static/chunks/65eb8a55dd274c1b.css","style"]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/volunteers-delivering-food-boxes-to-family-at-door.jpg","image"]
+:HL["/elderly-latina-woman-warm-smile-portrait.jpg","image"]
+:HL["/young-african-american-male-college-student-portra.jpg","image"]
+:HL["/working-mother-mid-30s-warm-portrait.jpg","image"]
+0:{"buildId":"1aXpbBUAsP6-PASN3-fdG","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
