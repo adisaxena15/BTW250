@@ -19,3 +19,8 @@ if (fs.existsSync(outDir)) {
   process.exit(1);
 }
 
+// Create .nojekyll so GitHub Pages serves the _next folder
+const noJekyllPath = path.join(docsDir, '.nojekyll');
+fs.writeFileSync(noJekyllPath, '');
+console.log('✓ Created docs/.nojekyll to disable Jekyll on GitHub Pages');
+

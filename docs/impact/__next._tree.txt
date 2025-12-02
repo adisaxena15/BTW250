@@ -3,4 +3,4 @@
 :HL["/elderly-latina-woman-warm-smile.jpg","image"]
 :HL["/young-african-american-male-college-student.jpg","image"]
 :HL["/working-mother-mid-30s-with-children.jpg","image"]
-0:{"buildId":"UzPjRigVwZ_IxW3MRAleZ","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"impact","paramType":null,"paramKey":"impact","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"9OOLAR5Rp_GR0vO1LN2L9","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"impact","paramType":null,"paramKey":"impact","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
