@@ -20,7 +20,7 @@ export function SiteHeader() {
             </Link>
           </div>
 
-          <nav className="hidden md:flex items-center gap-6">
+          <nav className="hidden lg:flex items-center gap-6">
             <Link href="/" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
               Home
             </Link>
@@ -33,6 +33,12 @@ export function SiteHeader() {
             >
               How It Works
             </Link>
+            <Link
+              href="/box-options"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+            >
+              Box Options
+            </Link>
             <Link href="/impact" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
               Impact
             </Link>
@@ -42,18 +48,24 @@ export function SiteHeader() {
             >
               Get Involved
             </Link>
+            <Link
+              href="/track-your-box"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+            >
+              Track Your Box
+            </Link>
             <Link href="/contact" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
               Contact
             </Link>
           </nav>
 
-          <div className="hidden md:flex items-center gap-3">
+          <div className="hidden lg:flex items-center gap-3">
             <Button
               asChild
               variant="outline"
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent"
             >
-              <Link href="/contact">Request a Food Box</Link>
+              <Link href="/request-food-box">Request a Food Box</Link>
             </Button>
             <Button asChild className="bg-destructive text-destructive-foreground hover:bg-destructive/90">
               <Link href="/get-involved#donate">Donate</Link>
@@ -61,13 +73,13 @@ export function SiteHeader() {
           </div>
 
           {/* Mobile menu button */}
-          <button className="md:hidden p-2" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} aria-label="Toggle menu">
+          <button className="lg:hidden p-2" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} aria-label="Toggle menu">
             {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
         </div>
 
         {mobileMenuOpen && (
-          <nav className="md:hidden py-4 space-y-4 border-t border-border">
+          <nav className="lg:hidden py-4 space-y-4 border-t border-border">
             <Link
               href="/"
               className="block text-base font-medium text-foreground hover:text-primary transition-colors"
@@ -90,6 +102,13 @@ export function SiteHeader() {
               How It Works
             </Link>
             <Link
+              href="/box-options"
+              className="block text-base font-medium text-foreground hover:text-primary transition-colors"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Box Options
+            </Link>
+            <Link
               href="/impact"
               className="block text-base font-medium text-foreground hover:text-primary transition-colors"
               onClick={() => setMobileMenuOpen(false)}
@@ -104,6 +123,13 @@ export function SiteHeader() {
               Get Involved
             </Link>
             <Link
+              href="/track-your-box"
+              className="block text-base font-medium text-foreground hover:text-primary transition-colors"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Track Your Box
+            </Link>
+            <Link
               href="/contact"
               className="block text-base font-medium text-foreground hover:text-primary transition-colors"
               onClick={() => setMobileMenuOpen(false)}
@@ -112,7 +138,7 @@ export function SiteHeader() {
             </Link>
             <div className="pt-4 flex flex-col gap-3">
               <Button asChild variant="outline" className="w-full border-primary text-primary bg-transparent">
-                <Link href="/contact">Request a Food Box</Link>
+                <Link href="/request-food-box">Request a Food Box</Link>
               </Button>
               <Button asChild className="w-full bg-destructive text-destructive-foreground hover:bg-destructive/90">
                 <Link href="/get-involved#donate">Donate</Link>
