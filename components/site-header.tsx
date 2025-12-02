@@ -39,9 +39,6 @@ export function SiteHeader() {
             >
               Box Options
             </Link>
-            <Link href="/impact" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
-              Impact
-            </Link>
             <Link
               href="/get-involved"
               className="text-sm font-medium text-foreground hover:text-primary transition-colors"
@@ -107,13 +104,6 @@ export function SiteHeader() {
               onClick={() => setMobileMenuOpen(false)}
             >
               Box Options
-            </Link>
-            <Link
-              href="/impact"
-              className="block text-base font-medium text-foreground hover:text-primary transition-colors"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Impact
             </Link>
             <Link
               href="/get-involved"

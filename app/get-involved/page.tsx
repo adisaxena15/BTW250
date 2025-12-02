@@ -15,8 +15,8 @@ export default function GetInvolvedPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4 text-balance">Get Involved</h1>
           <p className="text-lg text-muted-foreground max-w-3xl leading-relaxed">
-            Join us in fighting food insecurity. Whether you volunteer, donate, or partner with us, your support makes a
-            real difference in our community.
+            Join us in reducing barriers to food access. Whether you volunteer, donate, or partner with us, your support
+            helps CUFoodBox bring nutritious, culturally familiar food directly to households in Champaign-Urbana.
           </p>
         </div>
       </section>
@@ -37,14 +37,16 @@ export default function GetInvolvedPage() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Join our team of community volunteers who pack and deliver food boxes to neighbors in need.
+                  Lend a hand with packing or delivering food boxes to residents who can&apos;t easily reach
+                  traditional food pantries.
                 </p>
-                <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
-                  Sign Up to Volunteer
+                <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90" asChild>
+                  <Link href="/contact">Sign Up to Volunteer</Link>
                 </Button>
               </CardContent>
             </Card>
 
+            {/* Donate */}
             <Card className="bg-card" id="donate">
               <CardHeader>
                 <div className="w-12 h-12 rounded-full bg-destructive/10 flex items-center justify-center mb-4">
@@ -54,7 +56,8 @@ export default function GetInvolvedPage() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Financial contributions help us purchase fresh food and expand our reach to more households.
+                  Financial contributions help us source food, support delivery routes, and keep CUFoodBox running
+                  reliably for households who depend on it.
                 </p>
                 <Button className="w-full bg-destructive text-destructive-foreground hover:bg-destructive/90">
                   Make a Donation
@@ -72,7 +75,8 @@ export default function GetInvolvedPage() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Organizations, farms, and businesses can partner with us to support food security in our community.
+                  Food pantries, farms, grocery stores, university groups, and community organizations can collaborate
+                  with us to identify households, share resources, and strengthen food security in Champaign-Urbana.
                 </p>
                 <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90" asChild>
                   <Link href="/contact">Contact Us</Link>
@@ -88,10 +92,12 @@ export default function GetInvolvedPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-foreground mb-4 text-balance">Volunteer Opportunities</h2>
           <p className="text-muted-foreground mb-12 max-w-2xl leading-relaxed">
-            We welcome volunteers of all ages and abilities. Choose the role that fits your schedule and interests.
+            CUFoodBox relies on volunteers to keep food moving from our partners to local households. Choose a role that
+            fits your schedule and comfort level.
           </p>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {/* Packing */}
             <Card className="bg-background">
               <CardContent className="p-6">
                 <div className="flex items-start gap-4 mb-4">
@@ -100,21 +106,24 @@ export default function GetInvolvedPage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold text-foreground mb-2">Food Box Packing</h3>
-                    <p className="text-sm font-medium text-muted-foreground mb-3">2-3 hours, twice monthly</p>
+                    <p className="text-sm font-medium text-muted-foreground mb-3">
+                      Help assemble boxes at our central packing location.
+                    </p>
                   </div>
                 </div>
                 <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                  Help pack food boxes at our warehouse. Great for groups, families, and students looking for service
-                  hours.
+                  Work with other volunteers to sort items and pack weekly or biweekly food boxes based on household
+                  size, dietary needs, and cultural preferences.
                 </p>
                 <ul className="text-sm text-muted-foreground space-y-1 list-disc list-inside">
-                  <li>No experience needed</li>
-                  <li>Family-friendly (ages 8+)</li>
-                  <li>Flexible scheduling</li>
+                  <li>No prior experience needed</li>
+                  <li>Good option for student and community groups</li>
+                  <li>Light to moderate lifting depending on role</li>
                 </ul>
               </CardContent>
             </Card>
 
+            {/* Delivery */}
             <Card className="bg-background">
               <CardContent className="p-6">
                 <div className="flex items-start gap-4 mb-4">
@@ -123,68 +132,27 @@ export default function GetInvolvedPage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold text-foreground mb-2">Delivery Driver</h3>
-                    <p className="text-sm font-medium text-muted-foreground mb-3">3-4 hours, once monthly</p>
+                    <p className="text-sm font-medium text-muted-foreground mb-3">
+                      Bring CUFoodBox directly to residents&apos; homes.
+                    </p>
                   </div>
                 </div>
                 <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                  Deliver food boxes to recipients' homes. Work in pairs for safety and community connection.
+                  Follow planned routes to deliver boxes to households that cannot easily travel to food pantries,
+                  including seniors, students, and working families.
                 </p>
                 <ul className="text-sm text-muted-foreground space-y-1 list-disc list-inside">
-                  <li>Valid driver's license required</li>
-                  <li>Reliable vehicle needed</li>
-                  <li>Work in pairs</li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-background">
-              <CardContent className="p-6">
-                <div className="flex items-start gap-4 mb-4">
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                    <Users className="w-6 h-6 text-primary" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-foreground mb-2">Outreach & Enrollment</h3>
-                    <p className="text-sm font-medium text-muted-foreground mb-3">Flexible, 2-5 hours weekly</p>
-                  </div>
-                </div>
-                <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                  Help connect eligible households with CUFoodBox. Assist with enrollment and community outreach events.
-                </p>
-                <ul className="text-sm text-muted-foreground space-y-1 list-disc list-inside">
-                  <li>Good communication skills</li>
-                  <li>Multilingual volunteers welcome</li>
-                  <li>Remote options available</li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-background">
-              <CardContent className="p-6">
-                <div className="flex items-start gap-4 mb-4">
-                  <div className="w-12 h-12 rounded-full bg-secondary/40 flex items-center justify-center flex-shrink-0">
-                    <Heart className="w-6 h-6 text-foreground" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-foreground mb-2">Administrative Support</h3>
-                    <p className="text-sm font-medium text-muted-foreground mb-3">Flexible, 3-5 hours weekly</p>
-                  </div>
-                </div>
-                <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                  Assist with data entry, scheduling, donor communications, or grant writing.
-                </p>
-                <ul className="text-sm text-muted-foreground space-y-1 list-disc list-inside">
-                  <li>Computer skills helpful</li>
-                  <li>Remote or in-office</li>
-                  <li>Use your professional skills</li>
+                  <li>Comfortable driving around Champaign-Urbana</li>
+                  <li>Able to lift and carry food boxes</li>
+                  <li>Ideal for individuals or pairs</li>
                 </ul>
               </CardContent>
             </Card>
           </div>
 
           <div className="mt-12 text-center">
-            <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
-              Apply to Volunteer
+            <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90" asChild>
+              <Link href="/contact">Apply to Volunteer</Link>
             </Button>
           </div>
         </div>
@@ -196,27 +164,28 @@ export default function GetInvolvedPage() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-foreground mb-6 text-balance">Support Through Donations</h2>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              Your financial contributions directly support our mission. 87% of donations go directly to program
-              services. We are a registered 501(c)(3) nonprofit, and all donations are tax-deductible.
+              Your financial contributions directly support CUFoodBox&apos;s mission by helping us source food, coordinate
+              deliveries, and maintain a reliable program for households in Champaign-Urbana. We are a registered
+              501(c)(3) nonprofit, and all donations are tax-deductible.
             </p>
 
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <Card className="bg-card">
                 <CardContent className="p-6 text-center">
                   <div className="text-3xl font-bold text-primary mb-2">$50</div>
-                  <p className="text-sm text-muted-foreground">Provides a full food box for one household</p>
+                  <p className="text-sm text-muted-foreground">Helps support one household&apos;s food box</p>
                 </CardContent>
               </Card>
               <Card className="bg-card">
                 <CardContent className="p-6 text-center">
                   <div className="text-3xl font-bold text-primary mb-2">$150</div>
-                  <p className="text-sm text-muted-foreground">Supplies three families for a month</p>
+                  <p className="text-sm text-muted-foreground">Contributes to multiple deliveries in a month</p>
                 </CardContent>
               </Card>
               <Card className="bg-card">
                 <CardContent className="p-6 text-center">
                   <div className="text-3xl font-bold text-primary mb-2">$500</div>
-                  <p className="text-sm text-muted-foreground">Covers delivery costs for 20 households</p>
+                  <p className="text-sm text-muted-foreground">Strengthens routes and logistics for many households</p>
                 </CardContent>
               </Card>
             </div>
@@ -240,36 +209,41 @@ export default function GetInvolvedPage() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-foreground mb-6 text-balance">Partnership Opportunities</h2>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              We partner with local organizations, farms, businesses, and community groups to strengthen our impact.
+              CUFoodBox works alongside local food pantries, farms, grocery stores, university groups, and city and
+              community organizations. These partnerships make it possible to reach households who might otherwise be
+              missed by traditional food assistance.
             </p>
 
             <div className="space-y-6">
               <Card className="bg-background">
                 <CardContent className="p-6">
-                  <h3 className="text-lg font-semibold text-foreground mb-3">Local Farms & Food Producers</h3>
+                  <h3 className="text-lg font-semibold text-foreground mb-3">
+                    Food Pantries, Farms & Food Partners
+                  </h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    Partner with us to supply fresh produce, grains, or proteins. We prioritize local sourcing and can
-                    offer regular purchasing agreements.
+                    Collaborate with us by sharing surplus food, coordinating low-cost sourcing, or helping identify
+                    items that reflect the cultural and nutritional needs of local households.
                   </p>
                 </CardContent>
               </Card>
 
               <Card className="bg-background">
                 <CardContent className="p-6">
-                  <h3 className="text-lg font-semibold text-foreground mb-3">Community Organizations</h3>
+                  <h3 className="text-lg font-semibold text-foreground mb-3">Schools & Community Organizations</h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    Schools, healthcare providers, social service agencies, and faith communities can refer eligible
-                    households and help us reach those who need our services.
+                    Schools, clinics, university programs, extension services, and community centers can refer
+                    households, host sign-up events, and help connect residents who cannot easily reach food pantries.
                   </p>
                 </CardContent>
               </Card>
 
               <Card className="bg-background">
                 <CardContent className="p-6">
-                  <h3 className="text-lg font-semibold text-foreground mb-3">Businesses & Corporations</h3>
+                  <h3 className="text-lg font-semibold text-foreground mb-3">Local Businesses</h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    Corporate partnerships, employee volunteer programs, and sponsorships help expand our capacity and
-                    serve more households.
+                    Grocery stores and other local businesses can support CUFoodBox through in-kind food donations,
+                    logistical support, and by helping raise awareness about home-delivered food access in
+                    Champaign-Urbana.
                   </p>
                 </CardContent>
               </Card>

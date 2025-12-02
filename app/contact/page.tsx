@@ -54,8 +54,8 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground mb-2">Email</h3>
-                      <a href="mailto:info@cufoodbox.org" className="text-sm text-primary hover:underline">
-                        info@cufoodbox.org
+                      <a href="mailto:xxxx@illinois.edu" className="text-sm text-primary hover:underline">
+                        xxxx@illinois.edu
                       </a>
                     </div>
                   </div>
@@ -71,7 +71,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-semibold text-foreground mb-2">Phone</h3>
                       <a href="tel:+12175550100" className="text-sm text-primary hover:underline">
-                        (217) 555-0100
+                        (217) XXX-XXXX
                       </a>
                       <p className="text-xs text-muted-foreground mt-1">Mon-Fri, 9am-5pm</p>
                     </div>
@@ -152,7 +152,7 @@ export default function ContactPage() {
                         <Input
                           id="phone"
                           type="tel"
-                          placeholder="(217) 555-0100"
+                          placeholder="(217) XXX-XXXX"
                           value={formData.phone}
                           onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                         />
@@ -208,11 +208,11 @@ export default function ContactPage() {
             <p className="text-muted-foreground leading-relaxed mb-6">
               Call us at{" "}
               <a href="tel:+12175550100" className="text-primary hover:underline font-medium">
-                (217) 555-0100
+                (217) XXX-XXXX
               </a>{" "}
               or email{" "}
-              <a href="mailto:info@cufoodbox.org" className="text-primary hover:underline font-medium">
-                info@cufoodbox.org
+              <a href="mailto:xxxx@illinois.edu" className="text-primary hover:underline font-medium">
+                xxxx@illinois.edu
               </a>{" "}
               to learn more about enrollment. We welcome students, seniors, working families, individuals with
               disabilities, and anyone experiencing barriers to food access.

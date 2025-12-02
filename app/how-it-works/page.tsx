@@ -12,7 +12,9 @@ export default function HowItWorksPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4 text-balance">How It Works</h1>
           <p className="text-lg text-muted-foreground max-w-3xl leading-relaxed">
-            Learn how CUFoodBox operates—from food sourcing to delivery—to serve our community with dignity and care.
+            CUFoodBox uses a simple, community-centered system to move food from local partners to the households that
+            can&apos;t easily reach traditional food pantries. Each step is designed to reduce barriers and respect the
+            routines of the people we serve.
           </p>
         </div>
       </section>
@@ -21,74 +23,75 @@ export default function HowItWorksPage() {
       <section className="py-12 md:py-16 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto space-y-12">
-            {/* Enrollment System - moved to top for user-centric flow */}
+            {/* Enrollment & Referral */}
             <Card className="bg-card">
               <CardHeader>
                 <CardTitle className="flex items-center gap-3 text-2xl">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                     <ClipboardCheck className="w-6 h-6 text-primary" />
                   </div>
-                  Enrollment Process
+                  Enrollment &amp; Referral
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Enrollment is simple and designed to minimize barriers. Interested households complete a short online
-                  or paper form that asks for basic contact information, household size, dietary restrictions, and food
-                  preferences. We do not require proof of income or extensive documentation—our focus is on trust and
-                  accessibility.
+                  Households can enroll through a short online form or with help from partner organizations such as
+                  schools, clinics, UIUC groups, and social service agencies. The form collects basic contact
+                  information, household size, dietary restrictions, cultural food preferences, and preferred delivery
+                  timing.
                 </p>
                 <p>
-                  Forms are available in English, Spanish, and Mandarin, and staff are available to assist with
-                  enrollment by phone. Referrals come from schools, social service agencies, healthcare providers, and
-                  community organizations.
+                  For residents without stable internet, phone enrollment is available so they can share the same
+                  information with a staff member or volunteer. Referrals from community partners help CUFoodBox reach
+                  older adults, students, workers, and families who may not otherwise seek out traditional pantry
+                  services.
                 </p>
               </CardContent>
             </Card>
 
-            {/* Food Sourcing */}
+            {/* Food Sourcing & Packing */}
             <Card className="bg-card">
               <CardHeader>
                 <CardTitle className="flex items-center gap-3 text-2xl">
                   <div className="w-12 h-12 rounded-full bg-secondary/40 flex items-center justify-center flex-shrink-0">
                     <Package className="w-6 h-6 text-foreground" />
                   </div>
-                  Food Sourcing & Quality
+                  Food Sourcing &amp; Packing
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  We partner with the Eastern Illinois Foodbank to source non-perishable staples, including grains,
-                  canned goods, and proteins. We work with local farms and produce distributors to provide fresh fruits
-                  and vegetables whenever possible.
+                  CUFoodBox gathers food from local food pantries, grocery stores, farms, and community gardens. These
+                  partners provide a mix of pantry staples, fresh produce, and culturally familiar items that reflect the
+                  needs of Champaign-Urbana residents.
                 </p>
                 <p>
-                  Cultural diversity is central to our sourcing model. We stock ingredients that reflect the diverse
-                  backgrounds of Champaign-Urbana residents. Recipients indicate dietary restrictions and cultural food
-                  preferences during enrollment.
+                  Volunteers and part-time staff meet at a central location to pack weekly or biweekly boxes. During
+                  packing, they check dates and quality, and they match items to the dietary restrictions and
+                  preferences households share during enrollment.
                 </p>
               </CardContent>
             </Card>
 
-            {/* Packing Model */}
+            {/* Packing & Household Customization */}
             <Card className="bg-card">
               <CardHeader>
                 <CardTitle className="flex items-center gap-3 text-2xl">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                     <Users className="w-6 h-6 text-primary" />
                   </div>
-                  Food Box Packing
+                  Preparing Each Household&apos;s Box
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Our volunteer teams pack food boxes at our community warehouse space twice per month. Each box is
-                  customized based on household size and dietary preferences.
+                  Boxes are assembled with household size and dietary needs in mind. Families who note specific cultural
+                  foods, allergies, or health-related needs are matched with options that fit those details whenever
+                  possible.
                 </p>
                 <p>
-                  Standard boxes include approximately 25-30 pounds of food—enough to supplement a household's grocery
-                  needs for two weeks. Volunteers often include handwritten notes to recipients, building community
-                  connection.
+                  The goal is not only to deliver enough food for the week or two between deliveries, but to make sure
+                  the contents feel familiar, respectful, and realistic for each home.
                 </p>
               </CardContent>
             </Card>
@@ -100,18 +103,19 @@ export default function HowItWorksPage() {
                   <div className="w-12 h-12 rounded-full bg-secondary/40 flex items-center justify-center flex-shrink-0">
                     <Truck className="w-6 h-6 text-foreground" />
                   </div>
-                  Home Delivery System
+                  Home Delivery Model
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Deliveries occur monthly and are coordinated with recipients in advance. We use an online scheduling
-                  system that allows recipients to select delivery windows that work for their schedules.
+                  CUFoodBox uses a flexible delivery system supported by volunteer drivers and part-time paid drivers.
+                  Routes are planned so that boxes are delivered on a weekly or biweekly schedule that aligns with the
+                  preferred delivery windows households share during enrollment.
                 </p>
                 <p>
-                  Volunteer delivery teams work in pairs for safety and efficiency. They leave boxes at the door if
-                  recipients prefer contactless delivery or hand them directly to recipients who wish to connect in
-                  person.
+                  The delivery model focuses on residents who cannot easily travel to pantries in person, including
+                  seniors, people without cars, shift workers, and students with busy schedules. The goal is to make food
+                  access fit into people&apos;s lives rather than asking them to rearrange their day.
                 </p>
               </CardContent>
             </Card>
@@ -128,37 +132,38 @@ export default function HowItWorksPage() {
               </CardHeader>
               <CardContent className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  CUFoodBox relies on strong partnerships with local organizations to source food, recruit volunteers,
-                  and identify households in need. Our primary partners include the Eastern Illinois Foodbank and local
-                  farms.
+                  CUFoodBox collaborates with food pantries, university groups, extension programs, and city
+                  organizations. These partners support food sourcing, outreach, volunteer recruitment, and long-term
+                  program development.
                 </p>
                 <p>
-                  We collaborate with the University YMCA, faith communities, and student organizations for volunteer
-                  recruitment. Social service agencies refer families and individuals who could benefit from our
-                  services.
+                  Working within the broader food security network in Champaign-Urbana helps CUFoodBox avoid
+                  duplication, respond to emerging needs, and connect households with additional resources when
+                  necessary.
                 </p>
               </CardContent>
             </Card>
 
-            {/* Data Tracking */}
+            {/* Data Tracking & Evaluation */}
             <Card className="bg-card">
               <CardHeader>
                 <CardTitle className="flex items-center gap-3 text-2xl">
                   <div className="w-12 h-12 rounded-full bg-secondary/40 flex items-center justify-center flex-shrink-0">
                     <Database className="w-6 h-6 text-foreground" />
                   </div>
-                  Data & Impact Tracking
+                  Data Tracking &amp; Program Review
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  We maintain a secure database to track enrollment, delivery schedules, food preferences, and program
-                  outcomes. All data is stored securely and used only for program improvement and reporting purposes.
+                  A simple data system tracks deliveries, household needs, volunteer involvement, and food inventory.
+                  This information helps CUFoodBox understand how consistently households are served and where routes or
+                  schedules might need adjustment.
                 </p>
                 <p>
-                  Twice per year, we survey recipients to gather feedback on food quality, delivery experience, and
-                  program impact. We share aggregated data in annual reports to demonstrate our impact to donors and
-                  partners.
+                  Each year, the team reviews program performance to see how well the delivery model is meeting goals
+                  related to food security, reliability, and community reach. These evaluations guide improvements and
+                  support transparent, organized operations.
                 </p>
               </CardContent>
             </Card>

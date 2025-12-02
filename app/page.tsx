@@ -26,7 +26,7 @@ export default function HomePage() {
               Home-Delivered Food Boxes for Champaign-Urbana Families Who Can't Reach Pantries
             </h1>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              CUFoodBox delivers nutritious, culturally appropriate groceries directly to the doors of residents facing
+              CUFoodBox delivers nutritious meals directly to the doors of residents facing
               transportation, mobility, or scheduling barriers.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -46,40 +46,13 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Impact Metrics */}
-      <section className="py-12 bg-card border-y border-border">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-primary/10 mb-3">
-                <Users className="w-7 h-7 text-primary" />
-              </div>
-              <div className="text-4xl font-bold text-primary mb-1">850+</div>
-              <div className="text-sm text-muted-foreground">Households Served</div>
-            </div>
-            <div className="text-center">
-              <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-secondary/40 mb-3">
-                <Package className="w-7 h-7 text-foreground" />
-              </div>
-              <div className="text-4xl font-bold text-primary mb-1">120+</div>
-              <div className="text-sm text-muted-foreground">Active Volunteers</div>
-            </div>
-            <div className="text-center">
-              <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-primary/10 mb-3">
-                <Calendar className="w-7 h-7 text-primary" />
-              </div>
-              <div className="text-4xl font-bold text-primary mb-1">Monthly</div>
-              <div className="text-sm text-muted-foreground">Food Box Deliveries</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section className="py-16 md:py-20 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-4">How CUFoodBox Works</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-4">
+            How CUFoodBox Works
+          </h2>
           <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Three simple steps to receive nutritious food at your door.
+            A community-centered system designed to make nutritious food access simple, flexible, and barrier‑free.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
@@ -88,9 +61,10 @@ export default function HomePage() {
                 <ClipboardCheck className="w-10 h-10" />
               </div>
               <div className="text-sm font-semibold text-primary mb-2">Step 1</div>
-              <h3 className="text-xl font-bold text-foreground mb-3">Enroll</h3>
+              <h3 className="text-xl font-bold text-foreground mb-3">Sign Up</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                Sign up online or through one of our partner organizations. The process is simple and confidential.
+                Enroll online or through a partner organization. Households share basic details, nutritional needs, cultural food preferences,
+                and preferred delivery windows in a short assessment.
               </p>
             </div>
 
@@ -99,9 +73,10 @@ export default function HomePage() {
                 <Package className="w-10 h-10" />
               </div>
               <div className="text-sm font-semibold text-primary mb-2">Step 2</div>
-              <h3 className="text-xl font-bold text-foreground mb-3">We Pack & Deliver</h3>
+              <h3 className="text-xl font-bold text-foreground mb-3">We Source, Pack & Plan Routes</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                Volunteers prepare and deliver culturally appropriate food boxes tailored to your household.
+                Food is gathered from local pantries, farms, and grocery partners. Volunteers and part‑time drivers pack each box, while simple
+                route‑planning tools ensure deliveries are efficient and meet each household’s schedule.
               </p>
             </div>
 
@@ -110,9 +85,10 @@ export default function HomePage() {
                 <Home className="w-10 h-10" />
               </div>
               <div className="text-sm font-semibold text-primary mb-2">Step 3</div>
-              <h3 className="text-xl font-bold text-foreground mb-3">Receive Food at Home</h3>
+              <h3 className="text-xl font-bold text-foreground mb-3">Home Delivery</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                Deliveries arrive at your door on a schedule that works for you—with dignity and privacy.
+                Your box arrives at your door weekly or biweekly. Deliveries prioritize convenience, privacy, and accessibility—especially for
+                residents who cannot reach traditional food pantries.
               </p>
             </div>
           </div>
@@ -128,6 +104,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
 
       <section className="py-16 md:py-20 bg-card">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -190,121 +167,65 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Beneficiary Stories */}
+
       <section className="py-16 md:py-20 bg-background">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-4">
-            Stories from Our Community
-          </h2>
-          <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-            Real experiences from neighbors who have benefited from CUFoodBox.
-          </p>
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-4">
+      Frequently Asked Questions
+    </h2>
+    <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+      Quick answers about CUFoodBox and how our delivery program works.
+    </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <Card className="bg-card">
-              <CardContent className="p-6">
-                <div className="flex items-start gap-4 mb-4">
-                  <img src="/elderly-latina-woman-warm-smile-portrait.jpg" alt="Maria" className="w-16 h-16 rounded-full object-cover" />
-                  <div>
-                    <h4 className="font-semibold text-foreground">Maria, 72</h4>
-                    <p className="text-sm text-muted-foreground">Retired Teacher</p>
-                  </div>
-                </div>
-                <p className="text-sm text-muted-foreground leading-relaxed">
-                  "After my hip surgery, I couldn't drive to the food pantry anymore. CUFoodBox volunteers bring fresh
-                  vegetables right to my door. They're so kind and respectful."
-                </p>
-              </CardContent>
-            </Card>
+    <div className="max-w-2xl mx-auto">
+      <Accordion type="single" collapsible className="w-full">
+        <AccordionItem value="item-1">
+          <AccordionTrigger className="text-left font-semibold">
+            Is CUFoodBox free?
+          </AccordionTrigger>
+          <AccordionContent className="text-muted-foreground">
+            Yes. CUFoodBox is completely free for all enrolled households. Our program is supported through community
+            partnerships, donations, and local food sourcing collaborations.
+          </AccordionContent>
+        </AccordionItem>
 
-            <Card className="bg-card">
-              <CardContent className="p-6">
-                <div className="flex items-start gap-4 mb-4">
-                  <img src="/young-african-american-male-college-student-portra.jpg" alt="James" className="w-16 h-16 rounded-full object-cover" />
-                  <div>
-                    <h4 className="font-semibold text-foreground">James, 21</h4>
-                    <p className="text-sm text-muted-foreground">University Student</p>
-                  </div>
-                </div>
-                <p className="text-sm text-muted-foreground leading-relaxed">
-                  "Between classes and my part-time job, I had no time to get to the pantry. CUFoodBox delivers right to
-                  my apartment. I can focus on my studies instead of worrying about food."
-                </p>
-              </CardContent>
-            </Card>
+        <AccordionItem value="item-2">
+          <AccordionTrigger className="text-left font-semibold">
+            Who can sign up for CUFoodBox?
+          </AccordionTrigger>
+          <AccordionContent className="text-muted-foreground">
+            We serve Champaign-Urbana residents who cannot regularly access in-person food pantries due to barriers like
+            limited transportation, mobility challenges, demanding work hours, or caregiving responsibilities.
+          </AccordionContent>
+        </AccordionItem>
 
-            <Card className="bg-card">
-              <CardContent className="p-6">
-                <div className="flex items-start gap-4 mb-4">
-                  <img src="/working-mother-mid-30s-warm-portrait.jpg" alt="Sarah" className="w-16 h-16 rounded-full object-cover" />
-                  <div>
-                    <h4 className="font-semibold text-foreground">Sarah, 34</h4>
-                    <p className="text-sm text-muted-foreground">Working Parent</p>
-                  </div>
-                </div>
-                <p className="text-sm text-muted-foreground leading-relaxed">
-                  "As a single mom working two jobs, I couldn't make it to the pantry during their hours. CUFoodBox
-                  delivers when it works for my schedule. My kids now have healthy food every day."
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
+        <AccordionItem value="item-3">
+          <AccordionTrigger className="text-left font-semibold">
+            How often will I receive a food box?
+          </AccordionTrigger>
+          <AccordionContent className="text-muted-foreground">
+            Deliveries occur weekly or biweekly depending on your household’s needs, as indicated during enrollment. You
+            can adjust your delivery schedule at any time.
+          </AccordionContent>
+        </AccordionItem>
 
-      <section className="py-16 md:py-20 bg-card">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-4">
-            Frequently Asked Questions
-          </h2>
-          <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Common questions about CUFoodBox and our services.
-          </p>
+        <AccordionItem value="item-4">
+          <AccordionTrigger className="text-left font-semibold">
+            What kind of food will I receive?
+          </AccordionTrigger>
+          <AccordionContent className="text-muted-foreground">
+            Each box includes nutritious, fresh, and culturally appropriate foods sourced from local farms, food pantries,
+            and grocery partners. Dietary restrictions and cultural preferences shared during sign‑up are respected.
+          </AccordionContent>
+        </AccordionItem>
+      </Accordion>
+    </div>
+  </div>
+</section>
 
-          <div className="max-w-2xl mx-auto">
-            <Accordion type="single" collapsible className="w-full">
-              <AccordionItem value="item-1">
-                <AccordionTrigger className="text-left font-semibold">Is CUFoodBox free?</AccordionTrigger>
-                <AccordionContent className="text-muted-foreground">
-                  Yes. All food boxes and deliveries are completely free to recipients. We are a nonprofit organization
-                  funded by donations and grants.
-                </AccordionContent>
-              </AccordionItem>
-
-              <AccordionItem value="item-2">
-                <AccordionTrigger className="text-left font-semibold">Who qualifies for delivery?</AccordionTrigger>
-                <AccordionContent className="text-muted-foreground">
-                  Any Champaign-Urbana resident facing barriers to accessing traditional food pantries—including
-                  transportation challenges, mobility limitations, inflexible work schedules, or health concerns.
-                </AccordionContent>
-              </AccordionItem>
-
-              <AccordionItem value="item-3">
-                <AccordionTrigger className="text-left font-semibold">
-                  How often can I receive a food box?
-                </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground">
-                  Enrolled households receive monthly deliveries. You can pause or resume service at any time based on
-                  your needs.
-                </AccordionContent>
-              </AccordionItem>
-
-              <AccordionItem value="item-4">
-                <AccordionTrigger className="text-left font-semibold">
-                  How do donors know their money is used responsibly?
-                </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground">
-                  87% of donations go directly to program services. We publish annual reports with detailed financial
-                  information and outcomes, and our records are reviewed by an independent accountant.
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
-          </div>
-        </div>
-      </section>
 
       {/* Partners */}
-      <section className="py-16 md:py-20 bg-background">
+      <section className="py-16 md:py-20 bg-card">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-12">Our Community Partners</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">

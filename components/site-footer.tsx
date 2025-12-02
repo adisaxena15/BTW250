@@ -5,8 +5,8 @@ export function SiteFooter() {
   return (
     <footer className="border-t border-border bg-card">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div className="md:col-span-2">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8"> {/* changed from 4 cols to 3 for even distribution */}
+          <div>
             <div className="flex items-center gap-2 mb-4">
               <CUFoodBoxLogo className="w-8 h-8" />
               <h3 className="text-xl font-bold text-primary">CUFoodBox</h3>
@@ -16,9 +16,9 @@ export function SiteFooter() {
               barriers to traditional food pantries.
             </p>
             <p className="text-sm text-muted-foreground">
-              <strong>Email:</strong> info@cufoodbox.org
+              <strong>Email:</strong> xxxx@illinois.edu
               <br />
-              <strong>Phone:</strong> (217) 555-0100
+              <strong>Phone:</strong> (217) XXX-XXXX
             </p>
           </div>
 
@@ -36,11 +36,6 @@ export function SiteFooter() {
                 </Link>
               </li>
               <li>
-                <Link href="/impact" className="text-muted-foreground hover:text-primary transition-colors">
-                  Our Impact
-                </Link>
-              </li>
-              <li>
                 <Link href="/get-involved" className="text-muted-foreground hover:text-primary transition-colors">
                   Get Involved
                 </Link>
@@ -49,29 +44,10 @@ export function SiteFooter() {
           </div>
 
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Resources</h4>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <Link href="/contact" className="text-muted-foreground hover:text-primary transition-colors">
-                  Request a Food Box
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="text-muted-foreground hover:text-primary transition-colors">
-                  Contact Us
-                </Link>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Annual Reports
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Privacy Policy
-                </a>
-              </li>
-            </ul>
+            <h4 className="font-semibold text-foreground mb-4">Contact</h4>
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              Email us anytime or reach out to one of our partner organizations to get connected with CUFoodBox.
+            </p>
           </div>
         </div>
 
