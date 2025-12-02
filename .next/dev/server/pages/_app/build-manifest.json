@@ -1,0 +1,23 @@
+{
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [],
+  "pages": {
+    "/_app": [
+      "static/chunks/460fd_next_dist_compiled_02255ff1._.js",
+      "static/chunks/460fd_next_dist_shared_lib_f5d7bfd8._.js",
+      "static/chunks/460fd_next_dist_client_da50e24e._.js",
+      "static/chunks/460fd_next_dist_6faf9890._.js",
+      "static/chunks/460fd_next_app_086f2c14.js",
+      "static/chunks/[next]_entry_page-loader_ts_614074ee._.js",
+      "static/chunks/460fd_react-dom_9925b3ca._.js",
+      "static/chunks/460fd_aa6dae80._.js",
+      "static/chunks/[root-of-the-server]__4a25789b._.js",
+      "static/chunks/OneDrive_Front-End Web_BTW250_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-OneDrive_Front-End Web_BTW250_pages__app_6a769758._.js"
+    ]
+  },
+  "ampFirstPages": []
+}

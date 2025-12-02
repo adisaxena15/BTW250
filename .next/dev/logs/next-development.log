@@ -1,0 +1,393 @@
+[00:00:02.148] Server  LOG      ✓ Ready in 1281ms
+[00:00:05.225] Server  LOG      ○ Compiling /contact ...
+[00:00:42.777] Server  ERROR    ⨯ ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:2:1
+Module not found: Can't resolve '@/components/site-footer'
+  1 | import { SiteHeader } from "@/components/site-header"
+> 2 | import { SiteFooter } from "@/components/site-footer"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Card, CardContent } from "@/components/ui/card"
+  4 |
+  5 | export default function AboutPage() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./OneDrive/Front-End Web/BTW250/app/about/page.tsx:1:1
+Module not found: Can't resolve '@/components/site-header'
+> 1 | import { SiteHeader } from "@/components/site-header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { SiteFooter } from "@/components/site-footer"
+  3 | import { Card, CardContent } from "@/components/ui/card"
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./OneDrive/Front-End Web/BTW250/app/about/page.tsx:3:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { SiteHeader } from "@/components/site-header"
+  2 | import { SiteFooter } from "@/components/site-footer"
+> 3 | import { Card, CardContent } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function AboutPage() {
+  6 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:42.922] Browser ERROR   ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:2:1
+Module not found: Can't resolve '@/components/site-footer'
+  1 | import { SiteHeader } from "@/components/site-header"
+> 2 | import { SiteFooter } from "@/components/site-footer"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Card, CardContent } from "@/components/ui/card"
+  4 |
+  5 | export default function AboutPage() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:42.922] Browser ERROR   ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:1:1
+Module not found: Can't resolve '@/components/site-header'
+> 1 | import { SiteHeader } from "@/components/site-header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { SiteFooter } from "@/components/site-footer"
+  3 | import { Card, CardContent } from "@/components/ui/card"
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:42.922] Browser ERROR   ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:3:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { SiteHeader } from "@/components/site-header"
+  2 | import { SiteFooter } from "@/components/site-footer"
+> 3 | import { Card, CardContent } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function AboutPage() {
+  6 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:43.804] Browser ERROR   ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:2:1
+Module not found: Can't resolve '@/components/site-footer'
+  1 | import { SiteHeader } from "@/components/site-header"
+> 2 | import { SiteFooter } from "@/components/site-footer"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Card, CardContent } from "@/components/ui/card"
+  4 |
+  5 | export default function AboutPage() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:43.804] Browser ERROR   ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:1:1
+Module not found: Can't resolve '@/components/site-header'
+> 1 | import { SiteHeader } from "@/components/site-header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { SiteFooter } from "@/components/site-footer"
+  3 | import { Card, CardContent } from "@/components/ui/card"
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:43.804] Browser ERROR   ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:3:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { SiteHeader } from "@/components/site-header"
+  2 | import { SiteFooter } from "@/components/site-footer"
+> 3 | import { Card, CardContent } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function AboutPage() {
+  6 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:43.919] Browser ERROR   ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:2:1
+Module not found: Can't resolve '@/components/site-footer'
+  1 | import { SiteHeader } from "@/components/site-header"
+> 2 | import { SiteFooter } from "@/components/site-footer"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Card, CardContent } from "@/components/ui/card"
+  4 |
+  5 | export default function AboutPage() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:43.919] Browser ERROR   ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:1:1
+Module not found: Can't resolve '@/components/site-header'
+> 1 | import { SiteHeader } from "@/components/site-header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { SiteFooter } from "@/components/site-footer"
+  3 | import { Card, CardContent } from "@/components/ui/card"
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:43.919] Browser ERROR   ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:3:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { SiteHeader } from "@/components/site-header"
+  2 | import { SiteFooter } from "@/components/site-footer"
+> 3 | import { Card, CardContent } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function AboutPage() {
+  6 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:44.590] Browser ERROR   ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:2:1
+Module not found: Can't resolve '@/components/site-footer'
+  1 | import { SiteHeader } from "@/components/site-header"
+> 2 | import { SiteFooter } from "@/components/site-footer"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Card, CardContent } from "@/components/ui/card"
+  4 |
+  5 | export default function AboutPage() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:44.590] Browser ERROR   ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:1:1
+Module not found: Can't resolve '@/components/site-header'
+> 1 | import { SiteHeader } from "@/components/site-header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { SiteFooter } from "@/components/site-footer"
+  3 | import { Card, CardContent } from "@/components/ui/card"
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:44.590] Browser ERROR   ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:3:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { SiteHeader } from "@/components/site-header"
+  2 | import { SiteFooter } from "@/components/site-footer"
+> 3 | import { Card, CardContent } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function AboutPage() {
+  6 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:44.651] Server  ERROR    ⨯ ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:2:1
+Module not found: Can't resolve '@/components/site-footer'
+  1 | import { SiteHeader } from "@/components/site-header"
+> 2 | import { SiteFooter } from "@/components/site-footer"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Card, CardContent } from "@/components/ui/card"
+  4 |
+  5 | export default function AboutPage() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./OneDrive/Front-End Web/BTW250/app/about/page.tsx:1:1
+Module not found: Can't resolve '@/components/site-header'
+> 1 | import { SiteHeader } from "@/components/site-header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { SiteFooter } from "@/components/site-footer"
+  3 | import { Card, CardContent } from "@/components/ui/card"
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./OneDrive/Front-End Web/BTW250/app/about/page.tsx:3:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { SiteHeader } from "@/components/site-header"
+  2 | import { SiteFooter } from "@/components/site-footer"
+> 3 | import { Card, CardContent } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function AboutPage() {
+  6 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:45.052] Browser ERROR   uncaughtError: Error: ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:2:1
+Module not found: Can't resolve '@/components/site-footer'
+  1 | import { SiteHeader } from "@/components/site-header"
+> 2 | import { SiteFooter } from "@/components/site-footer"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Card, CardContent } from "@/components/ui/card"
+  4 |
+  5 | export default function AboutPage() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:45.201] Browser ERROR   ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:2:1
+Module not found: Can't resolve '@/components/site-footer'
+  1 | import { SiteHeader } from "@/components/site-header"
+> 2 | import { SiteFooter } from "@/components/site-footer"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Card, CardContent } from "@/components/ui/card"
+  4 |
+  5 | export default function AboutPage() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:45.201] Browser ERROR   ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:1:1
+Module not found: Can't resolve '@/components/site-header'
+> 1 | import { SiteHeader } from "@/components/site-header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { SiteFooter } from "@/components/site-footer"
+  3 | import { Card, CardContent } from "@/components/ui/card"
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:45.201] Browser ERROR   ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:3:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { SiteHeader } from "@/components/site-header"
+  2 | import { SiteFooter } from "@/components/site-footer"
+> 3 | import { Card, CardContent } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function AboutPage() {
+  6 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:45.319] Browser ERROR   ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:2:1
+Module not found: Can't resolve '@/components/site-footer'
+  1 | import { SiteHeader } from "@/components/site-header"
+> 2 | import { SiteFooter } from "@/components/site-footer"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Card, CardContent } from "@/components/ui/card"
+  4 |
+  5 | export default function AboutPage() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:45.319] Browser ERROR   ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:1:1
+Module not found: Can't resolve '@/components/site-header'
+> 1 | import { SiteHeader } from "@/components/site-header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { SiteFooter } from "@/components/site-footer"
+  3 | import { Card, CardContent } from "@/components/ui/card"
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:45.319] Browser ERROR   ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:3:1
+Module not found: Can't resolve '@/components/ui/card'
+  1 | import { SiteHeader } from "@/components/site-header"
+  2 | import { SiteFooter } from "@/components/site-footer"
+> 3 | import { Card, CardContent } from "@/components/ui/card"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function AboutPage() {
+  6 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:53.602] Server  ERROR    ⨯ ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:2:1
+Module not found: Can't resolve '@/components/site-footer'
+  1 | import { SiteHeader } from "@/components/site-header"
+> 2 | import { SiteFooter } from "@/components/site-footer"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Card, CardContent } from "../../components/ui/card"
+  4 |
+  5 | export default function AboutPage() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:53.605] Server  ERROR    ⨯ ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:2:1
+Module not found: Can't resolve '@/components/site-footer'
+  1 | import { SiteHeader } from "@/components/site-header"
+> 2 | import { SiteFooter } from "@/components/site-footer"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Card, CardContent } from "../../components/ui/card"
+  4 |
+  5 | export default function AboutPage() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:53.607] Server  ERROR    ⨯ ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:1:1
+Module not found: Can't resolve '@/components/site-header'
+> 1 | import { SiteHeader } from "@/components/site-header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { SiteFooter } from "@/components/site-footer"
+  3 | import { Card, CardContent } from "../../components/ui/card"
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:53.612] Server  ERROR    ⨯ ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:1:1
+Module not found: Can't resolve '@/components/site-header'
+> 1 | import { SiteHeader } from "@/components/site-header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { SiteFooter } from "@/components/site-footer"
+  3 | import { Card, CardContent } from "../../components/ui/card"
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:53.765] Browser ERROR   ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:2:1
+Module not found: Can't resolve '@/components/site-footer'
+  1 | import { SiteHeader } from "@/components/site-header"
+> 2 | import { SiteFooter } from "@/components/site-footer"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Card, CardContent } from "../../components/ui/card"
+  4 |
+  5 | export default function AboutPage() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:53.765] Browser ERROR   ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:1:1
+Module not found: Can't resolve '@/components/site-header'
+> 1 | import { SiteHeader } from "@/components/site-header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { SiteFooter } from "@/components/site-footer"
+  3 | import { Card, CardContent } from "../../components/ui/card"
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:58.259] Server  ERROR    ⨯ ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:1:1
+Module not found: Can't resolve '@/components/site-header'
+> 1 | import { SiteHeader } from "@/components/site-header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { SiteFooter } from "../../components/site-footer"
+  3 | import { Card, CardContent } from "../../components/ui/card"
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:58.264] Server  ERROR    ⨯ ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:1:1
+Module not found: Can't resolve '@/components/site-header'
+> 1 | import { SiteHeader } from "@/components/site-header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { SiteFooter } from "../../components/site-footer"
+  3 | import { Card, CardContent } from "../../components/ui/card"
+  4 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:58.394] Browser ERROR   ./OneDrive/Front-End Web/BTW250/app/about/page.tsx:1:1
+Module not found: Can't resolve '@/components/site-header'
+> 1 | import { SiteHeader } from "@/components/site-header"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { SiteFooter } from "../../components/site-footer"
+  3 | import { Card, CardContent } from "../../components/ui/card"
+  4 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:01.344] Server  LOG      ✓ Compiled in 91ms
